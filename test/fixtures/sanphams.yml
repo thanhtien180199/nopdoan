@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tieude: MyString
+  noidung: MyText
+  anh: MyString
+  gia: 9.99
+
+two:
+  tieude: MyString
+  noidung: MyText
+  anh: MyString
+  gia: 9.99

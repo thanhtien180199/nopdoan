@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+<%= image_tag(@sanpham.anh, height:'400', width: '200') %>
+<p>
+  <strong>Tiêu đề</strong>
+  <%= @sanpham.tieude %>
+</p>
+
+<p>
+  <strong>Nội dung</strong>
+  <%= @sanpham.noidung %>
+</p>
+
+
+
+<p>
+  <strong>Giá</strong>
+  <%= @sanpham.gia %>
+</p>
+
+<%# <%= link_to 'Edit', edit_sanpham_path(@sanpham) %> 
+<%= link_to 'Back', sanphams_path %>
